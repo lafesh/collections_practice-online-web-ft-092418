@@ -22,9 +22,9 @@ def kesha_maker(array)
   new_array = []
   array.collect do |name|
     name.split(" ")
-    
-    new_array << name
     name[2] = "$"
+    new_array << name
+    
   end 
   new_array
 end 
