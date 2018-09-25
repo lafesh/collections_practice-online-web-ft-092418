@@ -20,8 +20,8 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each do |string|
-    new_array << string[2] = "$"
+  array.each do |name|
+    new_array << name[2] = "$"
   end 
   new_array
 end 
