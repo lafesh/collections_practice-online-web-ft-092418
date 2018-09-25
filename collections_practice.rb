@@ -5,3 +5,7 @@ end
 def sort_array_desc(array)
   return array.sort {|x, y| y <=> x} 
 end 
+
+def sort_array_char_count(array)
+  array.sort {|x| x.length}
+end 
