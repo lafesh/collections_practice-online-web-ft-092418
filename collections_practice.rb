@@ -24,7 +24,6 @@ def kesha_maker(array)
     name.split(" ")
     name[2] = "$"
     new_array << name
-    
   end 
   new_array
 end 
