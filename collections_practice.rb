@@ -39,7 +39,7 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each.with_index.collect do |string, index|
+  array.each_with_index.collect do |string, index|
     if index = 1
       string
     else
