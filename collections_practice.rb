@@ -41,7 +41,7 @@ end
 def add_s(array)
   array.collect do |string|
     string.split(" ")
-    string[-1] = "s"
+    string = string + "s"
     string
   end 
 end 
